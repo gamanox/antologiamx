@@ -11,6 +11,9 @@ nav
   // box-shadow: none
   width: 240px
   background-color: #2C2C33
+  overflow-y: hidden
+  &:hover
+    overflow-y: auto
   li
     height: 40px
     padding: 0
@@ -22,6 +25,28 @@ nav
     a
       color: #fff
       text-align: right
+    &.phone-link
+      height: 35px
+      margin-top: 200px
+      &:hover
+        a
+          color: #9C8C4C
+      a
+        height: auto
+        line-height: 20px
+        letter-spacing: 1px
+        color: #525254
+    &.address-link
+      height: auto
+      &:hover
+        a
+          color: #9C8C4C
+      a
+        height: auto
+        line-height: 20px
+        letter-spacing: 1px
+        color: #525254
+
 
   .antologia-logo
     padding: 0

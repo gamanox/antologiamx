@@ -15,6 +15,11 @@ nav {
 #slide-out {
   width: 240px;
   background-color: #2C2C33;
+  overflow-y: hidden;
+}
+
+#slide-out:hover {
+  overflow-y: auto;
 }
 
 #slide-out li {
@@ -34,6 +39,37 @@ nav {
 #slide-out li a {
   color: #fff;
   text-align: right;
+}
+
+#slide-out li.phone-link {
+  height: 35px;
+  margin-top: 200px;
+}
+
+#slide-out li.phone-link:hover a {
+  color: #9C8C4C;
+}
+
+#slide-out li.phone-link a {
+  height: auto;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #525254;
+}
+
+#slide-out li.address-link {
+  height: auto;
+}
+
+#slide-out li.address-link:hover a {
+  color: #9C8C4C;
+}
+
+#slide-out li.address-link a {
+  height: auto;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #525254;
 }
 
 #slide-out .antologia-logo {
