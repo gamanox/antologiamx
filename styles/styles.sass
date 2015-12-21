@@ -1,0 +1,99 @@
+header, main, footer, video
+  padding-left: 240px
+header
+  z-index: 3
+  position: relative
+nav
+  height: 0
+  background-color: #2C2C33
+  // position: relative
+#slide-out
+  // box-shadow: none
+  width: 240px
+  background-color: #2C2C33
+  overflow-y: hidden
+  &:hover
+    overflow-y: auto
+  li
+    height: 40px
+    padding: 0
+    padding-right: 25px
+    &:hover
+      background-color: #2C2C33
+      a
+        color: #9C8C4C
+    a
+      color: #fff
+      text-align: right
+    &.phone-link
+      height: 35px
+      margin-top: 200px
+      &:hover
+        a
+          color: #9C8C4C
+      a
+        height: auto
+        line-height: 20px
+        letter-spacing: 1px
+        color: #525254
+    &.address-link
+      height: auto
+      &:hover
+        a
+          color: #9C8C4C
+      a
+        height: auto
+        line-height: 20px
+        letter-spacing: 1px
+        color: #525254
+
+
+  .antologia-logo
+    padding: 0
+    height: auto
+    a
+      height: auto
+    img
+      margin-left: auto
+      margin-right: auto
+      display: block
+      padding-top: 55px
+      padding-bottom: 165px
+
+main
+  .antologia-logo-big
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    margin: auto
+    margin-left: 240px
+    background-image: url('../img/antologia-logo-big.png')
+    background-repeat: no-repeat
+    background-position: 50% 50%
+    background-size: 50%
+    z-index: 3
+video
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+// @media (min-aspect-ratio: 16/9)
+//   video
+//     height: 300%
+//     top: -100%
+
+// @media (max-aspect-ratio: 16/9)
+//   video
+//     width: 300%
+//     left: -100%
+
+@media only screen and (max-width : 992px)
+  header, main, footer, video
+    padding-left: 0
+  main .antologia-logo-big
+    margin-left: 0
+  nav
+    height: 64px
+    line-height: 64px

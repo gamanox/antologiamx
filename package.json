@@ -2,7 +2,7 @@
   "name": "antologia",
   "version": "1.0.0",
   "description": "Cantina Gastronomica",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/gamanox/antologiamx/issues"
   },
-  "homepage": "https://github.com/gamanox/antologiamx#readme"
+  "homepage": "https://github.com/gamanox/antologiamx#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "^3.0.7"
+  }
 }
